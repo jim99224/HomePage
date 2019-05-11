@@ -113,7 +113,7 @@
     var player;
     player=new YT.Player('muteYouTubeVideoPlayer', {
         videoId: 'CDCpz_70XBU', // YouTube 影片 ID
-        width: 650, // 播放器寬度 (in px)
+        width: 700, // 播放器寬度 (in px)
         height: 356, // 播放器長度 (in px)
         playerVars: {
             autoplay: 1, // 自動播放視頻
