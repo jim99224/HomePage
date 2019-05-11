@@ -94,29 +94,10 @@
 
 <head>
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-   	<meta charset=utf-8 />
-	<title>Water drops effect</title>
-	<link rel='stylesheet' href='css/main.css' type='text/css'/>
-	<script src='js/vector2d.js' type='text/javascript' charset='utf-8'></script>
-	<script src='js/waterfall.js' type='text/javascript' charset='utf-8'></script>
 </head>
 
 <body>
-    <div class='example'>
-	<h3><a href='#'>Water drops effect</a></h3>
-	<canvas id='water'>HTML5 compliant browser required</canvas>
-
-	<div id='switcher'>
-
-		<img onclick='watereff.changePicture(this.src);' src='data_images/underwater1.jpg' />
-
-		<img onclick='watereff.changePicture(this.src);' src='data_images/underwater2.jpg' />
-
-	</div>
-
-	<div id='fps'></div>
-
-   </div>
+   
     <script Language="Javascript" FOR="window" EVENT="onLoad"> 
 	window.alert("新疆屠夫習禁評") 
         //-->
