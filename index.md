@@ -156,7 +156,8 @@
 
 
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <srcipt>
     var mx, my, timer;
     var z = 2;
     $(document).on('click', function (e) {
