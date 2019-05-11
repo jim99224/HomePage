@@ -7,7 +7,7 @@
     }
 
     body {
-            background-image: url(background.jpg);
+            background-image: url(//i.imgur.com/FYozCtc.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center;
