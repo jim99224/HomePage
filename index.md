@@ -128,7 +128,7 @@
 			<img id="a" src='https://upload.wikimedia.org/wikipedia/zh/thumb/b/ba/Suneo.png/220px-Suneo.png'></a>
 		</li>
 		<li>
-		    <a href="https://gary7lu.github.io/Shei-Pa-National-Park/">
+		    <a href="https://gary7lu.github.io/Shei-Pa-National-Park/" target="_blank">
 			<img id="b" src='https://www.itsfun.com.tw/cacheimg/ef/da/3e83ab30ecb07bec35a97634d136.jpg'></a>
 		</li>
 		<li>
