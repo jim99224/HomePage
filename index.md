@@ -108,43 +108,11 @@
 	window.alert("新疆屠夫習禁評") 
         //-->
     </script> 
-
     
-    
-    
-    <ul class='circle-container'>
-  		<li>
-			<a href=" https://jim99224.github.io/Kenting-National-Park/#" target="_blank">
-				<img  src='https://images.chinatimes.com/newsphoto/2018-10-10/900/20181010002416.jpg'>
-			</a>
-		</li>
-		<li>
-			<a href="https://jim99224.github.io/Taijiang-National-Park/index.html#" target="_blank">
-				<img  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpWbpUdPhoaYtWitKWE7NCtm2H131-m2quQWHba54N1GkteCS'>
-			</a>
-		</li>
-		<li>
-		    <a href=" https://gary7lu.github.io/Kinmen-National-Park/" target="_blank">
-			<img id="a" src='https://upload.wikimedia.org/wikipedia/zh/thumb/b/ba/Suneo.png/220px-Suneo.png'></a>
-		</li>
-		<li>
-		    <a href="https://gary7lu.github.io/Shei-Pa-National-Park/" target="_blank">
-			<img id="b" src='https://www.itsfun.com.tw/cacheimg/ef/da/3e83ab30ecb07bec35a97634d136.jpg'></a>
-		</li>
-		<li>
-		    <a href=" https://kaidung.github.io/Yushan-National-Park/" target="_blank"><img id="c" src='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cov328n38-1556448371.jpg?crop=0.330xw:0.658xh;0.670xw,0&resize=640:*'></a>
-		</li>
-		<li>
-		    <a href="https://kaidung.github.io/Dongsha-Atoll-National-Park/" target="_blank"><img id="d" src='http://inews.gtimg.com/newsapp_match/0/3646069021/0'></a>
-		</li>
-		<li><img id="e" src='http://lorempixel.com/100/100/business'></li>
-		<li><img src='http://lorempixel.com/100/100/people'></li>
-		<li><img src='https://stickershop.line-scdn.net/stickershop/v1/sticker/381596/ANDROID/sticker.png'></li>
-    </ul>
     <div id="muteYouTubeVideoPlayer"></div> <script async src="https://www.youtube.com/iframe_api"></script> <script> function onYouTubeIframeAPIReady() {
     var player;
     player=new YT.Player('muteYouTubeVideoPlayer', {
-    	position:absolute; top: 500px; left: 500px;
+    	position: relative;
         videoId: 'CDCpz_70XBU', // YouTube 影片 ID
         width: 650, // 播放器寬度 (in px)
         height: 356, // 播放器長度 (in px)
@@ -169,7 +137,38 @@
 }
 
 // Written by @labnol
-</script>
+
+
+		 <ul class='circle-container'>
+	    <li>
+		<a href=" https://jim99224.github.io/Kenting-National-Park/#" target="_blank">
+		    <img src='https://images.chinatimes.com/newsphoto/2018-10-10/900/20181010002416.jpg'>
+		</a>
+	    </li>
+	    <li>
+		<a href="https://jim99224.github.io/Taijiang-National-Park/index.html#" target="_blank">
+		    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpWbpUdPhoaYtWitKWE7NCtm2H131-m2quQWHba54N1GkteCS'>
+		</a>
+	    </li>
+	    <li>
+		<a href=" https://gary7lu.github.io/Kinmen-National-Park/" target="_blank">
+		    <img id="a" src='https://upload.wikimedia.org/wikipedia/zh/thumb/b/ba/Suneo.png/220px-Suneo.png'></a>
+	    </li>
+	    <li>
+		<a href="https://gary7lu.github.io/Shei-Pa-National-Park/" target="_blank">
+		    <img id="b" src='https://www.itsfun.com.tw/cacheimg/ef/da/3e83ab30ecb07bec35a97634d136.jpg'></a>
+	    </li>
+	    <li>
+		<a href=" https://kaidung.github.io/Yushan-National-Park/" target="_blank"><img id="c" src='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cov328n38-1556448371.jpg?crop=0.330xw:0.658xh;0.670xw,0&resize=640:*'></a>
+	    </li>
+	    <li>
+		<a href="https://kaidung.github.io/Dongsha-Atoll-National-Park/" target="_blank"><img id="d" src='http://inews.gtimg.com/newsapp_match/0/3646069021/0'></a>
+	    </li>
+	    <li><img id="e" src='http://lorempixel.com/100/100/business'></li>
+	    <li><img src='http://lorempixel.com/100/100/people'></li>
+	    <li><img src='https://stickershop.line-scdn.net/stickershop/v1/sticker/381596/ANDROID/sticker.png'></li>
+	</ul>
+	</script>
 </body>
 
 </html>
