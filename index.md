@@ -166,6 +166,7 @@
   	z = z + 1;
   	_wave(mx, my, z);
     });
+    </script>
     <script>
     function _wave(i, j, k) {
 	     $('.ui-content').prepend(
@@ -184,7 +185,6 @@
 	    $('.water' + k).remove();
 	  }, 3000);
     }
-    </script>
     </script>
 </head>
 
