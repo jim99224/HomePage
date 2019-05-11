@@ -80,7 +80,7 @@
 	}
 	
 	.circle-container >:nth-of-type(9) {
-	    transform: rotate(3deg) translate(15em) rotate(-320deg);
+	    transform: rotate(320deg) translate(15em) rotate(-320deg);
 	}
 	
 	.circle-container img {
