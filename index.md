@@ -52,33 +52,37 @@
 	}
 
 	.circle-container >:nth-of-type(2) {
-	    transform: rotate(45deg) translate(10em) rotate(-45deg);
+	    transform: rotate(40deg) translate(10em) rotate(-40deg);
 	}
 
 	.circle-container >:nth-of-type(3) {
-	    transform: rotate(90deg) translate(10em) rotate(-90deg);
+	    transform: rotate(80deg) translate(10em) rotate(-80deg);
 	}
 
 	.circle-container >:nth-of-type(4) {
-	    transform: rotate(135deg) translate(10em) rotate(-135deg);
+	    transform: rotate(120deg) translate(10em) rotate(-120deg);
 	}
 
 	.circle-container >:nth-of-type(5) {
-	    transform: rotate(180deg) translate(10em) rotate(-180deg);
+	    transform: rotate(160deg) translate(10em) rotate(-160deg);
 	}
 
 	.circle-container >:nth-of-type(6) {
-	    transform: rotate(225deg) translate(10em) rotate(-225deg);
+	    transform: rotate(200deg) translate(10em) rotate(-200deg);
 	}
 
 	.circle-container >:nth-of-type(7) {
-	    transform: rotate(270deg) translate(10em) rotate(-270deg);
+	    transform: rotate(240deg) translate(10em) rotate(-240deg);
 	}
 
 	.circle-container >:nth-of-type(8) {
-	    transform: rotate(315deg) translate(10em) rotate(-315deg);
+	    transform: rotate(280deg) translate(10em) rotate(-280deg);
 	}
-
+	
+	.circle-container >:nth-of-type(8) {
+	    transform: rotate(3deg) translate(10em) rotate(-320deg);
+	}
+	
 	.circle-container img {
 	    display: block;
 	    width: 100%;
@@ -95,53 +99,22 @@
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#top').click(function() {
-                $('html, body').animate({
-                    scrollTop: 0
-                }, 1000);
-            });
-            $('#bottom').click(function() {
-                $('html, body').animate({
-                    scrollTop: $(document).height() - $(window).height()
-                }, 1000);
-            });
-            $('#a').click(function() {
-                $('html, body').animate({
-                    scrollTop: $("#A").offset().top
-                }, 1000);
-            });
-            $('#b').click(function() {
-                $('html, body').animate({
-                    scrollTop: $("#B").offset().top
-                }, 1000);
-            });
-            $('#c').click(function() {
-                $('html, body').animate({
-                    scrollTop: $("#C").offset().top
-                }, 1000);
-            });
-            $('#d').click(function() {
-                $('html, body').animate({
-                    scrollTop: $("#D").offset().top
-                }, 1000);
-            });
-            $('#e').click(function() {
-                $('html, body').animate({
-                    scrollTop: $("#E").offset().top
-                }, 1000);
-            });
-        });
-    </script>
     
 </head>
 
 <body>
 
     <ul class='circle-container'>
-  		<li><img id="top" src='http://lorempixel.com/100/100/city'></li>
-		<li><img id="bottom" src='http://lorempixel.com/100/100/nature'></li>
+  		<li>
+			<a href=" https://jim99224.github.io/Kenting-National-Park/#" target="_blank">
+				<img  src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Han_Kuo-yu%28cropped%29.jpg/250px-Han_Kuo-yu%28cropped%29.jpg'>
+			</a>
+		</li>
+		<li>
+			<a href="https://jim99224.github.io/Taijiang-National-Park/index.html#" target="_blank">
+				<img  src='https://doqvf81n9htmm.cloudfront.net/data/annahu_151/181115/1920_PKH_5051_.jpg'>
+			</a>
+		</li>
 		<li>
 		    <a href=" https://gary7lu.github.io/Kinmen-National-Park/" target="_blank">
 			<img id="a" src='https://upload.wikimedia.org/wikipedia/zh/thumb/b/ba/Suneo.png/220px-Suneo.png'></a>
