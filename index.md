@@ -79,7 +79,7 @@
 	    transform: rotate(280deg) translate(10em) rotate(-280deg);
 	}
 	
-	.circle-container >:nth-of-type(8) {
+	.circle-container >:nth-of-type() {
 	    transform: rotate(3deg) translate(10em) rotate(-320deg);
 	}
 	
