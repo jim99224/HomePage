@@ -22,7 +22,7 @@
     }
     
     .circle-container {
-	    position: relative;top:1000px;
+	    position: relative;top:500px;
 	    /* 1 */
 	    width: 30em;
 	    height: 30em;
