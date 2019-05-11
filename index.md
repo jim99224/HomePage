@@ -104,6 +104,14 @@
 
 <body>
 
+    <script Language="Javascript" FOR="window" EVENT="onLoad"> 
+	window.alert("新疆屠夫習禁評") 
+        //-->
+    </script> 
+
+    
+    
+    
     <ul class='circle-container'>
   		<li>
 			<a href=" https://jim99224.github.io/Kenting-National-Park/#" target="_blank">
