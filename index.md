@@ -157,6 +157,10 @@
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    
+</head>
+
+<body>
     <script>
     var mx, my, timer;
     var z = 2;
@@ -166,8 +170,6 @@
   	z = z + 1;
   	_wave(mx, my, z);
     });
-    </script>
-    <script>
     function _wave(i, j, k) {
 	     $('.ui-content').prepend(
 	    '<div class="wave-position water' + k + '" style="z-index:' + k + ';top:' + (j - 150) + 'px;left:' + (i - 150) + 'px;">' +
@@ -186,9 +188,6 @@
 	  }, 3000);
     }
     </script>
-</head>
-
-<body>
     <div class="wave wave5"></div>
     <div class="wave wave4"></div>
     <div class="wave wave3"></div>
