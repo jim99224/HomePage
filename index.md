@@ -35,8 +35,8 @@
 	    position: absolute;
 	    top: 50%;
 	    left: 50%;
-	    width: 6em;
-	    height: 6em;
+	    width: 8em;
+	    height: 8em;
 	    margin: -3em;
 	}
 
@@ -134,7 +134,7 @@
     <ul class='circle-container'>
 	    <li>
 		<a href=" https://jim99224.github.io/Kenting-National-Park/#" target="_blank">
-		    <img src='https://imgur.com/AnsdZAT'>
+		    <img src='https://i.imgur.com/AnsdZAT.png'>
 		</a>
 	    </li>
 	    <li>
