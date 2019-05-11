@@ -42,8 +42,8 @@
 	    position: absolute;
 	    top: 50%;
 	    left: 50%;
-	    width: 10em;
-	    height: 10em;
+	    width: 6em;
+	    height: 6em;
 	    margin: -3em;
 	}
 
