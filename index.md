@@ -48,7 +48,7 @@
 	}
 
 	.circle-container >:nth-of-type(1) {
-	    transform: rotate(0deg) translate(10em) rotate(0deg);
+	    transform: rotate(0deg) translate(15em) rotate(0deg);
 	}
 
 	.circle-container >:nth-of-type(2) {
