@@ -166,7 +166,7 @@
   	z = z + 1;
   	_wave(mx, my, z);
     });
-
+    <script>
     function _wave(i, j, k) {
 	     $('.ui-content').prepend(
 	    '<div class="wave-position water' + k + '" style="z-index:' + k + ';top:' + (j - 150) + 'px;left:' + (i - 150) + 'px;">' +
@@ -184,6 +184,7 @@
 	    $('.water' + k).remove();
 	  }, 3000);
     }
+    </script>
     </script>
 </head>
 
