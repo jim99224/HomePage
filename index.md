@@ -1,24 +1,17 @@
 <html>
 
 <style>
-    .smaller-image {
-        width: 300px;
-    }
     
-    .bigger-image {
-        width: 400px;
+    html {
+            height: 100%;
     }
-    
-    .smallest-image {
-        width: 50px;
-    }
-    
-    .image-position {
-        width: 10px:
-    }
-    
+
     body {
-        background-color: #CCFF99;
+            background-image: url(background.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
     }
     
     .circle-container {
