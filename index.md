@@ -39,7 +39,7 @@
 	.circle-container > * {
 	    /* 4 */
 	    display: block;
-	    position: relative;
+	    position: absolute;
 	    top: 50%;
 	    left: 50%;
 	    width: 6em;
@@ -137,9 +137,8 @@
 }
 
 // Written by @labnol
-
-
-	<ul class='circle-container'>
+	</script>
+    <ul class='circle-container'>
 	    <li>
 		<a href=" https://jim99224.github.io/Kenting-National-Park/#" target="_blank">
 		    <img src='https://images.chinatimes.com/newsphoto/2018-10-10/900/20181010002416.jpg'>
@@ -168,7 +167,7 @@
 	    <li><img src='http://lorempixel.com/100/100/people'></li>
 	    <li><img src='https://stickershop.line-scdn.net/stickershop/v1/sticker/381596/ANDROID/sticker.png'></li>
 	</ul>
-	</script>
+
 </body>
 
 </html>
