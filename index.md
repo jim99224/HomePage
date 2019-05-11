@@ -139,7 +139,7 @@
 	    </li>
 	    <li>
 		<a href="https://jim99224.github.io/Taijiang-National-Park/index.html#" target="_blank">
-		    <img src='https://imgur.com/HpUJEIa'>
+		    <img src='https://i.imgur.com/HpUJEIa.png'>
 		</a>
 	    </li>
 	    <li>
