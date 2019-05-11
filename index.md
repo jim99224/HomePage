@@ -52,35 +52,35 @@
 	}
 
 	.circle-container >:nth-of-type(2) {
-	    transform: rotate(40deg) translate(10em) rotate(-40deg);
+	    transform: rotate(40deg) translate(15em) rotate(-40deg);
 	}
 
 	.circle-container >:nth-of-type(3) {
-	    transform: rotate(80deg) translate(10em) rotate(-80deg);
+	    transform: rotate(80deg) translate(15em) rotate(-80deg);
 	}
 
 	.circle-container >:nth-of-type(4) {
-	    transform: rotate(120deg) translate(10em) rotate(-120deg);
+	    transform: rotate(120deg) translate(15em) rotate(-120deg);
 	}
 
 	.circle-container >:nth-of-type(5) {
-	    transform: rotate(160deg) translate(10em) rotate(-160deg);
+	    transform: rotate(160deg) translate(15em) rotate(-160deg);
 	}
 
 	.circle-container >:nth-of-type(6) {
-	    transform: rotate(200deg) translate(10em) rotate(-200deg);
+	    transform: rotate(200deg) translate(15em) rotate(-200deg);
 	}
 
 	.circle-container >:nth-of-type(7) {
-	    transform: rotate(240deg) translate(10em) rotate(-240deg);
+	    transform: rotate(240deg) translate(15em) rotate(-240deg);
 	}
 
 	.circle-container >:nth-of-type(8) {
-	    transform: rotate(280deg) translate(10em) rotate(-280deg);
+	    transform: rotate(280deg) translate(15em) rotate(-280deg);
 	}
 	
-	.circle-container >:nth-of-type() {
-	    transform: rotate(3deg) translate(10em) rotate(-320deg);
+	.circle-container >:nth-of-type(9) {
+	    transform: rotate(3deg) translate(15em) rotate(-320deg);
 	}
 	
 	.circle-container img {
@@ -139,6 +139,7 @@
 		</li>
 		<li><img id="e" src='http://lorempixel.com/100/100/business'></li>
 		<li><img src='http://lorempixel.com/100/100/people'></li>
+		<li><img src='https://stickershop.line-scdn.net/stickershop/v1/sticker/381596/ANDROID/sticker.png'></li>
     </ul>
     <div id="muteYouTubeVideoPlayer"></div> <script async src="https://www.youtube.com/iframe_api"></script> <script> function onYouTubeIframeAPIReady() {
     var player;
