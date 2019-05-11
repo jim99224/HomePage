@@ -39,7 +39,7 @@
 	.circle-container > * {
 	    /* 4 */
 	    display: block;
-	    position: absolute;
+	    position: relative;
 	    top: 50%;
 	    left: 50%;
 	    width: 6em;
