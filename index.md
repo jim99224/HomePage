@@ -156,7 +156,7 @@
 
 
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
     var mx, my, timer;
     var z = 2;
     $(document).on('click', function (e) {
@@ -183,6 +183,7 @@
 	    $('.water' + k).remove();
 	  }, 3000);
     }
+    </script>
 </head>
 
 <body>
