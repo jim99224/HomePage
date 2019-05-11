@@ -37,7 +37,7 @@
 	    left: 50%;
 	    width: 8em;
 	    height: 8em;
-	    margin: -3em;
+	    margin: -4em;
 	}
 
 	.circle-container >:nth-of-type(1) {
