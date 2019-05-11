@@ -107,12 +107,12 @@
     <ul class='circle-container'>
   		<li>
 			<a href=" https://jim99224.github.io/Kenting-National-Park/#" target="_blank">
-				<img  src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Han_Kuo-yu%28cropped%29.jpg/250px-Han_Kuo-yu%28cropped%29.jpg'>
+				<img  src='https://images.chinatimes.com/newsphoto/2018-10-10/900/20181010002416.jpg'>
 			</a>
 		</li>
 		<li>
 			<a href="https://jim99224.github.io/Taijiang-National-Park/index.html#" target="_blank">
-				<img  src='https://doqvf81n9htmm.cloudfront.net/data/annahu_151/181115/1920_PKH_5051_.jpg'>
+				<img  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpWbpUdPhoaYtWitKWE7NCtm2H131-m2quQWHba54N1GkteCS'>
 			</a>
 		</li>
 		<li>
