@@ -87,61 +87,7 @@
 	    filter: grayscale(0);
 	}
 
-	.wave{
-		  position:absolute;
-		  top:calc((100% - 30px)/2);
-		  left:calc((100% - 30px)/2);
-		  width:30px;
-		  height:30px;
-		  border-radius:300px;
-		  background:url(https://i.imgur.com/FYozCtc.jpg?1);
-		  background-attachment:fixed;
-		  background-position:center center;
-	}
-	.wave0{
-	  z-index:2;
-	  background-size:auto 106%;
-	  -webkit-animation:w 1s forwards;
-	}
-	.wave1{
-	  z-index:3;
-	  background-size:auto 102%;
-	  -webkit-animation:w 1s .2s forwards;
-	}
-	.wave2{
-	  z-index:4;
-	  background-size:auto 104%;
-	  -webkit-animation:w 1s .4s forwards;
-	}
-	.wave3{
-	  z-index:5;
-	  background-size:auto 101%;
-	  -webkit-animation:w 1s .5s forwards;
-	}
-	.wave4{
-	  z-index:6;
-	  background-size:auto 102%;
-	  -webkit-animation:w 1s .8s forwards;
-	}
-	.wave5{
-	  z-index:7;
-	  background-size:auto 100%;
-	  -webkit-animation:w 1s 1s forwards;
-	}
-	@-webkit-keyframes w{
-	  0%{
-	    top:calc((100% - 30px)/2);
-	    left:calc((100% - 30px)/2);
-	    width:30px;
-	    height:30px;
-	  }
-	  100%{
-	    top:calc((100% - 300px)/2);
-	    left:calc((100% - 300px)/2);
-	    width:300px;
-	    height:300px;
-	  }
-	}
+	
 
 </style>
 
