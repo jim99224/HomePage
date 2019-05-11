@@ -112,7 +112,6 @@
     <div id="muteYouTubeVideoPlayer"></div> <script async src="https://www.youtube.com/iframe_api"></script> <script> function onYouTubeIframeAPIReady() {
     var player;
     player=new YT.Player('muteYouTubeVideoPlayer', {
-    	position: relative;
         videoId: 'CDCpz_70XBU', // YouTube 影片 ID
         width: 650, // 播放器寬度 (in px)
         height: 356, // 播放器長度 (in px)
