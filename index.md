@@ -7,7 +7,7 @@
     }
 
     body {
-            background-image: url(//i.imgur.com/FYozCtc.jpg);
+            background-image: url(https://i.imgur.com/FYozCtc.jpg?1);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center;
@@ -87,6 +87,61 @@
 	    filter: grayscale(0);
 	}
 
+
+	.wave{
+ 		position:absolute;
+  		top:calc((100% - 30px)/2);
+  		left:calc((100% - 30px)/2);
+  		width:30px;
+  		height:30px;
+  		border-radius:300px;
+	}
+	.wave0{
+	  background:#f00;
+	  z-index:2;
+	  background-size:auto 106%;
+	  -webkit-animation:w 1s forwards;
+	}
+	.wave1{
+	  background:#d00;
+	  z-index:3;
+	  -webkit-animation:w 1s .2s forwards;
+	}
+	.wave2{
+	  background:#b00;
+	  z-index:4;
+	  -webkit-animation:w 1s .4s forwards;
+	}
+	.wave3{
+	  background:#900;
+	  z-index:5;
+	  -webkit-animation:w 1s .5s forwards;
+	}
+	.wave4{
+	  background:#700;
+	  z-index:6;
+	  -webkit-animation:w 1s .8s forwards;
+	}
+	.wave5{
+	  background:#500;
+	  z-index:7;
+	  -webkit-animation:w 1s 1s forwards;
+	}
+	@-webkit-keyframes w{
+	  0%{
+	    top:calc((100% - 30px)/2);
+	    left:calc((100% - 30px)/2);
+	    width:30px;
+	    height:30px;
+	  }
+	  100%{
+	    top:calc((100% - 300px)/2);
+	    left:calc((100% - 300px)/2);
+	    width:300px;
+	    height:300px;
+	  }
+	}
+
 </style>
 
 
@@ -96,6 +151,12 @@
 </head>
 
 <body>
+    <div class="wave wave5"></div>
+    <div class="wave wave4"></div>
+    <div class="wave wave3"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave1"></div>
+    <div class="wave wave0"></div>
 
     <script Language="Javascript" FOR="window" EVENT="onLoad"> 
 	window.alert("新疆屠夫習禁評") 
