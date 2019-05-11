@@ -24,8 +24,8 @@
     .circle-container {
 	    position: relative;
 	    /* 1 */
-	    width: 20em;
-	    height: 20em;
+	    width: 30em;
+	    height: 30em;
 	    padding: 0;
 	    border-radius: 50%;
 	    list-style: none;
@@ -42,8 +42,8 @@
 	    position: absolute;
 	    top: 50%;
 	    left: 50%;
-	    width: 6em;
-	    height: 6em;
+	    width: 10em;
+	    height: 10em;
 	    margin: -3em;
 	}
 
