@@ -140,7 +140,7 @@
 		<li><img id="e" src='http://lorempixel.com/100/100/business'></li>
 		<li><img src='http://lorempixel.com/100/100/people'></li>
     </ul>
-    <div id="muteYouTubeVideoPlayer"></div> <script async src="https://youtu.be/CDCpz_70XBU"></script> <script> function onYouTubeIframeAPIReady() {
+    <div id="muteYouTubeVideoPlayer"></div> <script async src="https://www.youtube.com/iframe_api"></script> <script> function onYouTubeIframeAPIReady() {
     var player;
     player=new YT.Player('muteYouTubeVideoPlayer', {
         videoId: 'CDCpz_70XBU', // YouTube 影片 ID
