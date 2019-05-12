@@ -181,7 +181,10 @@
 	
 	<a class="pos">
 	<script language="JavaScript"> 
-	document.body.style.backgroundColor = "red";
+	function setColor(element, color)
+	{
+    		element.style.backgroundColor = orange;
+	}
 	function GookieVal(offset) {  
 		var endstr = document.cookie.indexOf (";", offset);  
 		if (endstr == -1)  
