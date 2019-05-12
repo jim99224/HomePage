@@ -181,10 +181,6 @@
 	
 	<a class="pos">
 	<script language="JavaScript"> 
-	function setColor(element, color)
-	{
-    		element.style.backgroundColor = orange;
-	}
 	function GookieVal(offset) {  
 		var endstr = document.cookie.indexOf (";", offset);  
 		if (endstr == -1)  
@@ -229,7 +225,7 @@
 		document.cookie = name + "=" + cval + "; expires="  
 		+ exp.toGMTString();  
 	}  
-	document.write("<center><font size=\"5\">"); 
+	document.write("<center><font size=\"5\"><background color=\"orange\">"); 
 	var expdate = new Date();  
 	// 設定期限為一年後  
 	expdate.setTime(expdate.getTime() + (24 * 60 * 60 * 1000 * 365));  
