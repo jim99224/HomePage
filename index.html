@@ -225,7 +225,7 @@
 		document.cookie = name + "=" + cval + "; expires="  
 		+ exp.toGMTString();  
 	}  
-	document.write("<center><font size=\"5\";background-color:orange;margin-right:5px;>"); 
+	document.write("<center><font size=\"5\"><span style="background-color:orange;margin-right:5px;"></span>"); 
 	var expdate = new Date();  
 	// 設定期限為一年後  
 	expdate.setTime(expdate.getTime() + (24 * 60 * 60 * 1000 * 365));  
