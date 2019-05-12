@@ -88,7 +88,7 @@
 	}
 	
 	.pos{
-		position:relative;top:200px;
+		position:relative;top:170px;
 	}
 	
 
