@@ -233,7 +233,7 @@
 	if(!(visits = Gookie("3wave"))) {
 		visits = 1;  
 		Sookie("3wave", visits, expdate, "/", null, false);  
-		document.write("這是您第 " + visits + " 次光臨本站！"); 
+		document.write("<span style="background-color:orange">這是您第 " + visits + " 次光臨本站！</span>"); 
 	}  
 	else{  
 		// 將到站次數累加一次  
@@ -241,9 +241,6 @@
 		Sookie("3wave", visits, expdate, "/", null, false);  
 		document.write("這是您第 " + visits + " 次光臨本站！");  
 		document.write("</font></center>"); 
-	}
-	for(var i = 0; i < ea.length; i++){
-	    ea[i].style.backgroundColor = "yellow";
 	}
 	</script> 
 	</a>
