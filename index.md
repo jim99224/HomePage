@@ -86,7 +86,10 @@
 	.circle-container img:hover {
 	    filter: grayscale(0);
 	}
-
+	
+	.pos{
+		position:relative;top:100px;
+	}
 	
 
 </style>
@@ -167,9 +170,7 @@
 	    <li><img src='https://i.imgur.com/nD9GXXi.png'></li>
 	</ul>
 	
-	<p><p><p>
-	
-	
+	<a class="pos">
 	<script language="JavaScript"> 
 	function GookieVal(offset) {  
 		var endstr = document.cookie.indexOf (";", offset);  
@@ -232,7 +233,7 @@
 		document.write("</font></center>"); 
 	}  
 	</script> 
-
+	</a>
 
 </body>
 
