@@ -166,6 +166,71 @@
 	    <li><img src='https://i.imgur.com/sbiZ7q3.png'></li>
 	    <li><img src='https://i.imgur.com/nD9GXXi.png'></li>
 	</ul>
+	
+	
+	<script language="JavaScript"> 
+	function GookieVal(offset) {  
+	var endstr = document.cookie.indexOf (";", offset);  
+	if (endstr == -1)  
+	endstr = document.cookie.length;  
+	return unescape(document.cookie.substring(offset, endstr));  
+	}  
+
+	function Gookie(name) {  
+	var arg = name + "=";  
+	var alen = arg.length;  
+	var clen = document.cookie.length;  
+	var i = 0;  
+	while (i < clen) {  
+	var j = i + alen;  
+	if (document.cookie.substring(i, j) == arg)  
+	return GookieVal (j);  
+	i = document.cookie.indexOf(" ", i) + 1;  
+	if (i == 0) break;  
+	}  
+	return null;  
+	}  
+
+	function Sookie(name, value) {  
+	var argv = Sookie.arguments;  
+	var argc = Sookie.arguments.length;  
+	var expires = (argc > 2) ? argv[2] : null;  
+	var path = (argc > 3) ? argv[3] : null;  
+	var domain = (argc > 4) ? argv[4] : null;  
+	var secure = (argc > 5) ? argv[5] : false;  
+	document.cookie = name + "=" + escape (value) +  
+	((expires == null) ? "" : ("; expires="  
+	+ expires.toGMTString())) +  
+	((path == null) ? "" : ("; path=" + path)) +  
+	((domain == null) ? "" : ("; domain=" + domain)) +  
+	((secure == true) ? "; secure" : "");  
+	}  
+
+	function Dookie(name) {  
+	var exp = new Date();  
+	exp.setTime (exp.getTime() - 1);  
+	var cval = Gookie (name);  
+	document.cookie = name + "=" + cval + "; expires="  
+	+ exp.toGMTString();  
+	}  
+	document.write("<center><font size=\"2\">"); 
+	var expdate = new Date();  
+	// 設定期限為一年後  
+	expdate.setTime(expdate.getTime() + (24 * 60 * 60 * 1000 * 365));  
+	if(!(visits = Gookie("3wave"))) {visits = 1;  
+	Sookie("3wave", visits, expdate, "/", null, false);  
+	document.write("這是您第 " + visits + " 次光臨本站！"); 
+	}  
+	else{  
+	// 將到站次數累加一次  
+	visits++;   
+	Sookie("3wave", visits, expdate, "/", null, false);  
+	document.write("這是您第 " + visits + " 次光臨本站！");  
+	document.write("</font></center>"); 
+	}  
+	</script> 
+
+
 </body>
 
 </html>
