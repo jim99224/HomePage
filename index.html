@@ -224,8 +224,9 @@
 		var cval = Gookie (name);  
 		document.cookie = name + "=" + cval + "; expires="  
 		+ exp.toGMTString();  
-	}  
-	document.write("<center><font size=\"5\"><background color=\"orange\">"); 
+	}
+	var ea = document.getElementsByClassName('name');
+	document.write("<center><font size=\"5\">"); 
 	var expdate = new Date();  
 	// 設定期限為一年後  
 	expdate.setTime(expdate.getTime() + (24 * 60 * 60 * 1000 * 365));  
@@ -240,7 +241,10 @@
 		Sookie("3wave", visits, expdate, "/", null, false);  
 		document.write("這是您第 " + visits + " 次光臨本站！");  
 		document.write("</font></center>"); 
-	}  
+	}
+	for(var i = 0; i < ea.length; i++){
+	    ea[i].style.backgroundColor = "yellow";
+	}
 	</script> 
 	</a>
 
