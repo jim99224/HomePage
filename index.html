@@ -226,14 +226,14 @@
 		+ exp.toGMTString();  
 	}
 	var ea = document.getElementsByClassName('name');
-	document.write("<center><span background-color=\"orange\"><font size=\"5\">"); 
+	document.write("<center><font size=\"5\">"); 
 	var expdate = new Date();  
 	// 設定期限為一年後  
 	expdate.setTime(expdate.getTime() + (24 * 60 * 60 * 1000 * 365));  
 	if(!(visits = Gookie("3wave"))) {
 		visits = 1;  
 		Sookie("3wave", visits, expdate, "/", null, false);  
-		document.write("<font style='color:#0000FF;'><b>這是您第 </b></font>" + visits + "<font style='color:#0000FF;'><b> 次光臨本站！</b></font>"); 
+		document.write("<font style='color:#0000FF;'><b>這是您第 </b></font>" +  visits  + "<font style='color:#0000FF;'><b> 次光臨本站！</b></font>"); 
 	}  
 	else{  
 		// 將到站次數累加一次  
