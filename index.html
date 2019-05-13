@@ -156,22 +156,22 @@
 	    </li>
 	    <li>
 		<a href=" https://gary7lu.github.io/Kinmen-National-Park/" target="_blank">
-		    <img id="a" src='https://i.imgur.com/JLmc0I0.png'>
+		    <img src='https://i.imgur.com/JLmc0I0.png'>
 		</a>
 	    </li>
 	    <li>
 		<a href="https://gary7lu.github.io/Shei-Pa-National-Park/" target="_blank">
-		    <img id="b" src='https://i.imgur.com/2Jee0yS.png'>
+		    <img src='https://i.imgur.com/90Rdin2.png'>
 		</a>
 	    </li>
 	    <li>
 		<a href=" https://kaidung.github.io/Yushan-National-Park/" target="_blank">
-			<img id="c" src='https://i.imgur.com/vfhHXDR.png'>
+			<img src='https://i.imgur.com/vfhHXDR.png'>
 		</a>
 	    </li>
 	    <li>
 		<a href="https://kaidung.github.io/Dongsha-Atoll-National-Park/" target="_blank">
-			<img id="d" src='https://i.imgur.com/xKl4NJG.png'>
+			<img src='https://i.imgur.com/xKl4NJG.png'>
 		</a>
 	    </li>
 	    <li><img src='https://i.imgur.com/o2fmeJr.png'></li>
@@ -233,13 +233,13 @@
 	if(!(visits = Gookie("3wave"))) {
 		visits = 1;  
 		Sookie("3wave", visits, expdate, "/", null, false);  
-		document.write("這是您第 " + visits + " 次光臨本站！"); 
+		document.write("<font style='color:#0000FF;'><b>這是您第 </b></font>" + visits + "<font style='color:#0000FF;'><b> 次光臨本站！</b></font>"); 
 	}  
 	else{  
 		// 將到站次數累加一次  
 		visits++;   
 		Sookie("3wave", visits, expdate, "/", null, false);  
-		document.write("這是您第 " + visits + " 次光臨本站！");  
+		document.write("<font style='color:#0000FF;'><b>這是您第 </b></font>" + visits + "<font style='color:#0000FF;'><b> 次光臨本站！</b></font>");  
 		document.write("</font></center>"); 
 	}
 	</script> 
