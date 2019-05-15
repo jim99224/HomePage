@@ -89,12 +89,11 @@
 	
 	.pos{
 		position:relative;
-		top:200px;
+		top:170px;
 	}
 	.pos1{
 		position:relative;
 		top:70px;
-	        left: 25%;
 	}
 	title-position{
 		position:absolute;
@@ -423,13 +422,28 @@
             <a href="https://jim99224.github.io/Kenting-National-Park/#"><i class='fa fa-cutlery'></i>墾丁國家公園</a>
          </li>
          <li>
-            <a href=""><i class='fa fa-coffee'></i>Drinks</a>
+            <a href=""><i class='fa fa-coffee'></i>陽明山國家公園</a>
          </li>
          <li>
-            <a href=""><i class='fa fa-phone'></i>Contact</a>
+            <a href=""><i class='fa fa-phone'></i>太魯閣國家公園</a>
          </li>
          <li>
-            <a href=""><i class='fa fa-map-marker'></i>Location</a>
+            <a href="https://kaidung.github.io/Dongsha-Atoll-National-Park/"><i class='fa fa-map-marker'></i>東沙環礁國家公園</a>
+         </li>
+         <li>
+            <a href="https://kaidung.github.io/Yushan-National-Park/"><i class='fa fa-map-marker'></i>玉山國家公園</a>
+         </li>
+         <li>
+            <a href="https://gary7lu.github.io/Shei-Pa-National-Park/"><i class='fa fa-map-marker'></i>雪霸國家公園</a>
+         </li>
+         <li>
+            <a href="https://gary7lu.github.io/Kinmen-National-Park/"><i class='fa fa-map-marker'></i>金門國家公園</a>
+         </li>
+         <li>
+            <a href="https://jim99224.github.io/Taijiang-National-Park/index.html#"><i class='fa fa-map-marker'></i>台江國家公園</a>
+         </li>
+         <li>
+            <a href=""><i class='fa fa-map-marker'></i>澎湖南方四島國家公園</a>
          </li>
       </ul>
    </nav>
@@ -445,34 +459,36 @@
         //-->
     </script> 
     <a class="pos1">
-	    <div id="muteYouTubeVideoPlayer"></div> <script async src="https://www.youtube.com/iframe_api"></script> <script> function onYouTubeIframeAPIReady() {
-	    var player;
-	    player=new YT.Player('muteYouTubeVideoPlayer', {
-		videoId: 'CDCpz_70XBU', // YouTube 影片 ID
-		width: 740, // 播放器寬度 (in px)
-		height: 356, // 播放器長度 (in px)
-		playerVars: {
-		    autoplay: 1, // 自動播放視頻
-		    controls: 1, // 顯示播放/暫停按鈕
-		    showinfo: 0, // 隱藏影片標題
-		    modestbranding: 1, // 隱藏YouTube LOGO
-		    loop: 1, // 循環播放
-		    fs: 0, // 隱藏全螢幕視窗按鈕
-		    cc_load_policty: 0, // 隱藏關閉字幕
-		    iv_load_policy: 3, // 隱藏影片註釋
-		    autohide: 0 // 播放時隱藏影片控制按鈕
-		}
-		, events: {
-		    onReady: function(e) {
-			e.target.mute(); // 靜音
+    	<div align="center">
+		    <div id="muteYouTubeVideoPlayer"></div> <script async src="https://www.youtube.com/iframe_api"></script> <script> function onYouTubeIframeAPIReady() {
+		    var player;
+		    player=new YT.Player('muteYouTubeVideoPlayer', {
+			videoId: 'CDCpz_70XBU', // YouTube 影片 ID
+			width: 740, // 播放器寬度 (in px)
+			height: 356, // 播放器長度 (in px)
+			playerVars: {
+			    autoplay: 1, // 自動播放視頻
+			    controls: 1, // 顯示播放/暫停按鈕
+			    showinfo: 0, // 隱藏影片標題
+			    modestbranding: 1, // 隱藏YouTube LOGO
+			    loop: 1, // 循環播放
+			    fs: 0, // 隱藏全螢幕視窗按鈕
+			    cc_load_policty: 0, // 隱藏關閉字幕
+			    iv_load_policy: 3, // 隱藏影片註釋
+			    autohide: 0 // 播放時隱藏影片控制按鈕
+			}
+			, events: {
+			    onReady: function(e) {
+				e.target.mute(); // 靜音
+			    }
+			}
 		    }
+		    );
 		}
-	    }
-	    );
-	}
 
-	// Written by @labnol
-		</script>
+		// Written by @labnol
+			</script>
+		</div>
     </a>
     <ul class='circle-container'>
 	    <li>
@@ -511,70 +527,84 @@
 	</ul>
 	
 	<a class="pos">
-	<script language="JavaScript"> 
-	function GookieVal(offset) {  
-		var endstr = document.cookie.indexOf (";", offset);  
-		if (endstr == -1)  
-		endstr = document.cookie.length;  
-		return unescape(document.cookie.substring(offset, endstr));  
-	}  
+		<center>
+			<div style="background-color:orange;width:400px;">
+				<script language="JavaScript"> 
+				function GookieVal(offset) {  
+					var endstr = document.cookie.indexOf (";", offset);  
+					if (endstr == -1)  
+					endstr = document.cookie.length;  
+					return unescape(document.cookie.substring(offset, endstr));  
+				}  
 
-	function Gookie(name) {  
-		var arg = name + "=";  
-		var alen = arg.length;  
-		var clen = document.cookie.length;  
-		var i = 0;  
-		while (i < clen) {  
-		var j = i + alen;  
-		if (document.cookie.substring(i, j) == arg)  
-		return GookieVal (j);  
-		i = document.cookie.indexOf(" ", i) + 1;  
-		if (i == 0) break;  
-		}  
-		return null;  
-	}  
+				function Gookie(name) {  
+					var arg = name + "=";  
+					var alen = arg.length;  
+					var clen = document.cookie.length;  
+					var i = 0;  
+					while (i < clen) {  
+					var j = i + alen;  
+					if (document.cookie.substring(i, j) == arg)  
+					return GookieVal (j);  
+					i = document.cookie.indexOf(" ", i) + 1;  
+					if (i == 0) break;  
+					}  
+					return null;  
+				}  
 
-	function Sookie(name, value) {  
-		var argv = Sookie.arguments;  
-		var argc = Sookie.arguments.length;  
-		var expires = (argc > 2) ? argv[2] : null;  
-		var path = (argc > 3) ? argv[3] : null;  
-		var domain = (argc > 4) ? argv[4] : null;  
-		var secure = (argc > 5) ? argv[5] : false;  
-		document.cookie = name + "=" + escape (value) +  
-		((expires == null) ? "" : ("; expires="  
-		+ expires.toGMTString())) +  
-		((path == null) ? "" : ("; path=" + path)) +  
-		((domain == null) ? "" : ("; domain=" + domain)) +  
-		((secure == true) ? "; secure" : "");  
-	}  
+				function Sookie(name, value) {  
+					var argv = Sookie.arguments;  
+					var argc = Sookie.arguments.length;  
+					var expires = (argc > 2) ? argv[2] : null;  
+					var path = (argc > 3) ? argv[3] : null;  
+					var domain = (argc > 4) ? argv[4] : null;  
+					var secure = (argc > 5) ? argv[5] : false;  
+					document.cookie = name + "=" + escape (value) +  
+					((expires == null) ? "" : ("; expires="  
+					+ expires.toGMTString())) +  
+					((path == null) ? "" : ("; path=" + path)) +  
+					((domain == null) ? "" : ("; domain=" + domain)) +  
+					((secure == true) ? "; secure" : "");  
+				}  
 
-	function Dookie(name) {  
-		var exp = new Date();  
-		exp.setTime (exp.getTime() - 1);  
-		var cval = Gookie (name);  
-		document.cookie = name + "=" + cval + "; expires="  
-		+ exp.toGMTString();  
-	}
-	var ea = document.getElementsByClassName('name');
-	document.write("<center><font size=\"5\">"); 
-	var expdate = new Date();  
-	// 設定期限為一年後  
-	expdate.setTime(expdate.getTime() + (24 * 60 * 60 * 1000 * 365));  
-	if(!(visits = Gookie("3wave"))) {
-		visits = 1;  
-		Sookie("3wave", visits, expdate, "/", null, false);  
-		document.write("<font style='color:#0000FF;'><b>這是您第 </b></font>" +  visits  + "<font style='color:#0000FF;'><b> 次光臨本站！</b></font>"); 
-	}  
-	else{  
-		// 將到站次數累加一次  
-		visits++;   
-		Sookie("3wave", visits, expdate, "/", null, false);  
-		document.write("<font style='color:#0000FF;'><b>這是您第 </b></font>" + visits + "<font style='color:#0000FF;'><b> 次光臨本站！</b></font>");  
-		document.write("</font></center>"); 
-	}
-	</script> 
+				function Dookie(name) {  
+					var exp = new Date();  
+					exp.setTime (exp.getTime() - 1);  
+					var cval = Gookie (name);  
+					document.cookie = name + "=" + cval + "; expires="  
+					+ exp.toGMTString();  
+				}
+				var ea = document.getElementsByClassName('name');
+				document.write("<center><font size=\"5\" style=\"color:#ffffff\">"); 
+				var expdate = new Date();  
+				// 設定期限為一年後  
+				expdate.setTime(expdate.getTime() + (24 * 60 * 60 * 1000 * 365));  
+				if(!(visits = Gookie("3wave"))) {
+					visits = 1;  
+					Sookie("3wave", visits, expdate, "/", null, false);  
+					document.write("<font style='color:#0000FF;'><b>這是您第 </b></font>" +  visits  + "<font style='color:#0000FF;'><b> 次光臨本站！</b></font>"); 
+				}  
+				else{  
+					// 將到站次數累加一次  
+					visits++;   
+					Sookie("3wave", visits, expdate, "/", null, false);  
+					document.write("<font style='color:#0000FF;'><b>這是您第 </b></font>" + visits + "<font style='color:#0000FF;'><b> 次光臨本站！</b></font>");  
+					document.write("</font></center>"); 
+				}
+				</script> 
+			</div>
+		</center>
 	</a>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br><br>
+	<br>
+	<br>
+	<br><br>
+	<br>
+
 
 </body>
 
