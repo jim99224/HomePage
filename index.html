@@ -1,7 +1,16 @@
 <html>
 
 <style>
-    
+	div{
+        position:relative;
+        width:740px;
+    }
+
+    p{
+    	font-size: 18px;
+    	font-family: 微軟正黑體;
+    }
+
     html {
             height: 100%;
     }
@@ -33,7 +42,7 @@
 	    /* 4 */
 	    display: block;
 	    position: absolute;
-	    top: 50%;
+	    top:50%;
 	    left: 50%;
 	    width: 8em;
 	    height: 8em;
@@ -115,7 +124,7 @@
 	    margin: 50px 130px;
 	}
 	p{
-	    font-size:1em;
+	    font-size:18px;
 	    line-height:1.5em;
 	}
 	.wrapper{
@@ -132,18 +141,19 @@
 	    position:fixed;
 	    top:0;
 	    left:0;
-	    width:250px;
+	    width:270px;
 	    height:100%;
-	    margin:0 0 0 -250px;
-	-webkit-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+	    margin:0 0 0 -270px;
+	-webkit-transition: a
+	ll 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
 	   -moz-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
 	     -o-transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
 		transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
 	}
 	nav ul{
-	    width:200px;
+	    width:235px;
 	    height:100%;
-	    padding:0 0 0 50px;
+	    padding:0 0 0 35px;
 	    margin:0;
 	    list-style:none;
 	    background:#FFF9A5;
@@ -224,19 +234,6 @@
 
 <body>
     <title>我愛羅莉by凱東</title>
-
-   <div id="google_translate_element"></div>
-
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'zh-tw', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script>
-
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-	
-	
     <script language="JavaScript">
 	    $('#burger').mousedown(function() {
 		    $('.bun').velocity({
@@ -268,14 +265,14 @@ function googleTranslateElementInit() {
 			transformOriginY: 26
 		    }, {
 			duration: 100
-		    }, [250, 15]);
+		    }, [400, 15]);
 		    $('#chip-with-sauce').velocity({
 			rotateZ: "45deg",
 			transformOriginX: 38,
 			transformOriginY: 26
 		    }, {
 			duration: 100
-		    }, [250, 15]);
+		    }, [400, 15]);
 		});
 
 		$('#chips').mousedown(function() {
@@ -285,14 +282,14 @@ function googleTranslateElementInit() {
 			transformOriginY: 28
 		    }, {
 			duration: 100
-		    }, [250, 15]);
+		    }, [400, 15]);
 		    $('#chip-with-sauce').velocity({
 			rotateZ: "0",
 			transformOriginX: 35,
 			transformOriginY: 28
 		    }, {
 			duration: 100
-		    }, [250, 15]);
+		    }, [400, 15]);
 		});
 
 		$('#chips').mouseup(function() {
@@ -303,6 +300,22 @@ function googleTranslateElementInit() {
 		});
    </script>
 	
+
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'zh-tw', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+
+
+
 	
     <div class="wrapper">
    <input type="checkbox" id="navigation" />
@@ -431,6 +444,7 @@ function googleTranslateElementInit() {
    </label>
    <nav>
       <ul>
+      	<div style="width:400px;">
          <li>
             <a href="https://jim99224.github.io/Kenting-National-Park/#"><i class='fa fa-cutlery'></i>墾丁國家公園</a>
          </li>
@@ -458,8 +472,10 @@ function googleTranslateElementInit() {
          <li>
             <a href=""><i class='fa fa-map-marker'></i>澎湖南方四島國家公園</a>
          </li>
+         </div>
       </ul>
    </nav>
+   </div>
    <section>
       <article>
       </article>
@@ -468,10 +484,11 @@ function googleTranslateElementInit() {
 </div>
     <h1 class="title-position" align="center">國家公園介紹</h1>
     <script Language="Javascript" FOR="window" EVENT="onLoad"> 
-	window.alert("新疆屠夫習禁評") 
+	window.alert("歡迎來到國家公園導覽") 
         //-->
     </script> 
     <a class="pos1">
+    	<center>
     	<div align="center">
 		    <div id="muteYouTubeVideoPlayer"></div> <script async src="https://www.youtube.com/iframe_api"></script> <script> function onYouTubeIframeAPIReady() {
 		    var player;
@@ -502,41 +519,53 @@ function googleTranslateElementInit() {
 		// Written by @labnol
 			</script>
 		</div>
+	</center>
     </a>
+    <center>
+    <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;top:100px;">
+        <h1><b>網站設立目的</b></h1>
+        <p>為了讓更多人看見台灣國家公園的美，我們特別整理了九大國家公園的資料，讓前來台灣旅遊的觀光客或是假日想出去踏青的人， 迅速了解哪一個國家公園最吸引他。除了提供各國家公園的基本資訊外，我們連國家公園附近的美食與住宿一併整理出來，讓你玩累了就吃、 吃飽了就睡、睡起來明天繼續玩。
+        </p>
+    </div>
+
+    <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;top:110px;">
+    <h1><b>點擊下方圖片 前往各個國家公園</b></h1>
+    </div>
+    </center>
     <ul class='circle-container'>
 	    <li>
 		<a href=" https://jim99224.github.io/Kenting-National-Park/#" target="_blank">
-		    <img src='https://i.imgur.com/AnsdZAT.png'>
+		    <img src=' https://i.imgur.com/GdU7itv.png'>
 		</a>
 	    </li>
 	    <li>
 		<a href="https://jim99224.github.io/Taijiang-National-Park/index.html#" target="_blank">
-		    <img src='https://i.imgur.com/HpUJEIa.png'>
+		    <img src=' https://i.imgur.com/7BzYXCn.png'>
 		</a>
 	    </li>
 	    <li>
 		<a href=" https://gary7lu.github.io/Kinmen-National-Park/" target="_blank">
-		    <img src='https://i.imgur.com/JLmc0I0.png'>
+		    <img src=' https://i.imgur.com/bdePrtu.png'>
 		</a>
 	    </li>
 	    <li>
 		<a href="https://gary7lu.github.io/Shei-Pa-National-Park/" target="_blank">
-		    <img src='https://i.imgur.com/90Rdin2.png'>
+		    <img src=' https://i.imgur.com/07yfxZe.png'>
 		</a>
 	    </li>
 	    <li>
 		<a href=" https://kaidung.github.io/Yushan-National-Park/" target="_blank">
-			<img src='https://i.imgur.com/vfhHXDR.png'>
+			<img src=' https://i.imgur.com/XA9nBm0.png'>
 		</a>
 	    </li>
 	    <li>
 		<a href="https://kaidung.github.io/Dongsha-Atoll-National-Park/" target="_blank">
-			<img src='https://i.imgur.com/xKl4NJG.png'>
+			<img src=' https://i.imgur.com/zOpjyRC.png'>
 		</a>
 	    </li>
-	    <li><img src='https://i.imgur.com/o2fmeJr.png'></li>
-	    <li><img src='https://i.imgur.com/sbiZ7q3.png'></li>
-	    <li><img src='https://i.imgur.com/nD9GXXi.png'></li>
+	    <li><img src='https://i.imgur.com/IRvi8H2.png'></li>
+	    <li><img src='https://i.imgur.com/2GagYYP.png'></li>
+	    <li><img src='https://i.imgur.com/wr5VoRP.png'></li>
 	</ul>
 	
 	<a class="pos">
